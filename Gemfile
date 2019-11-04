@@ -20,6 +20,7 @@ group :jekyll_plugins do
 end
 
 # For the theme called minimal-mistakes
+gem "minimal-mistakes-jekyll"
 gem 'jekyll-include-cache'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

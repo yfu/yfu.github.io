@@ -1,6 +1,9 @@
 ---
-layout: post
+# layout: post
 title:  "Welcome to Jekyll!"
+excerpt: ""
+categories: []
+tags: [Jekyll, test, first]
 date:   2019-11-03 20:40:48 -0500
 categories: jekyll update
 ---

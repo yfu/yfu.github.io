@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "CV"
+    url: https://todo
+  - title: "Publications"
+    url: https://todo
+  - title: "Resources"
+    url: /resources-todo/
+  - title: "About"
+    url: https://todo
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

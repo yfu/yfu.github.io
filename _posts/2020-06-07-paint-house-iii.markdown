@@ -5,6 +5,7 @@ excerpt: ""
 categories: []
 tags: [leetcode, programming, dp, dynamic programming]
 date:   2020-06-07 14:35:00 -0500
+classes: wide
 categories: leetcode update
 ---
 

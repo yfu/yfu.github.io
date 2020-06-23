@@ -39,7 +39,7 @@ Any room can contain threats or power-ups, even the first room the knight enters
 
 Solution:
 
-For the iterative method, the trick is that we need to process from the bottom-right to the upper-left corner for the iterative method. If we do it the other way around (upper-left to bottom-right), we won't be able to determine the minimum health at current position [i][j] given [i-1][j] (U) and [i][j-1] (L). In some cases, it's tempting the select one of U and L as the correct direction just to get a good minimum health, it is entirely possible that the other direction---which gives worse minimum health—--makes the knight to have more health to lead to a better global minimum health.
+For the iterative method, the trick is that we need to process from the bottom-right to the upper-left corner for the iterative method. If we do it the other way around (upper-left to bottom-right), we won't be able to determine the minimum health at current position [i][j] given [i-1][j] (U) and [i][j-1] (L). In some cases, it's tempting the select one of U and L as the correct direction just to get good minimum health, it is entirely possible that the other direction---which gives worse minimum health—--leads the knight to have more health to ultimately result in a better global minimum health.
 
 1. Iterative:
 

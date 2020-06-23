@@ -70,7 +70,7 @@ class Solution(object):
 
 2. Recursive:
 
-```
+{% highlight python %}
 class Solution(object):
     def calculateMinimumHP(self, dungeon):
         """
@@ -98,7 +98,8 @@ class Solution(object):
             return cache[tup]
         
         return dp(0, 0)            
-```
+{% endhighlight %}
+
 
 
 

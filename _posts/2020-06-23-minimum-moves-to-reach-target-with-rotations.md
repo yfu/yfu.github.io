@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Dungeon Game"
+title:  "Minimum Moves to Reach Target with Rotations"
 excerpt: ""
 categories: []
 tags: [leetcode, dynamic programming]

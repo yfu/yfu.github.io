@@ -43,7 +43,7 @@ For the iterative method, the trick is that we need to process from the bottom-r
 
 1. Iterative:
 
-```Python
+```
 class Solution(object):
     def calculateMinimumHP(self, dungeon):
         """
@@ -70,7 +70,7 @@ class Solution(object):
 
 2. Recursive:
 
-```Python
+```
 class Solution(object):
     def calculateMinimumHP(self, dungeon):
         """

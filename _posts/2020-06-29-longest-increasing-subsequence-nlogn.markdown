@@ -9,7 +9,7 @@ classes: wide
 categories: leetcode update
 ---
 
-[https://leetcode.com/problems/longest-increasing-subsequence/](https://leetcode.com/problems/longest-increasing-subsequence/)
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
 Solution: nlog(n) solution requires first understanding the [O(n^2) solution](https://leetcode.com/problems/longest-increasing-subsequence/solution/). 
 

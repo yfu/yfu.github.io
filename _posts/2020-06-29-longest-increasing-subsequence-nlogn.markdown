@@ -17,6 +17,8 @@ We obviously need to go through every element in `nums` to get the answer, which
 
 `Input: [10,9,2,5,3,7,101,18]`
 
+![Steps 1--4](img/300-1.png)
+
 Step 1: Just by looking at the first element, we can tell that---for the smallest subproblem (where there's only 1 number in `nums`)---the LIS so far is just 1.
 
 Step 2: 9 is smaller than 10, so LIS still has the same length 1 but we can keep 9 in `d` as this gives us a better chance to find a longer sequence.
@@ -24,6 +26,8 @@ Step 2: 9 is smaller than 10, so LIS still has the same length 1 but we can keep
 Step 3: 2 is smaller than 9, so LIS still has the same length 1 we we can keep 2 in `d` as this gives us a better chance to find a longer sequence.
 
 Step 4: 5 is greater than 2, so the current length of LIS increases by 1.
+
+![Steps 5--8](img/300-2.png)
 
 Step 5: 3 is greater than 2 (though it's not greater than 5), so the current length of LIS keeps the same but we keep 3 in `d` as this gives us a better chance to find a longer sequence.
 

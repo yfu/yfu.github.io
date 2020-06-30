@@ -13,7 +13,7 @@ categories: leetcode update
 
 Solution: Dynamic programming. 
 
-This is basically a simplified [global sequence alignment](https://en.wikipedia.org/wiki/Sequence_alignment#Global_and_local_alignments) commonly used in bioinformatics. In bioinformatics, different operations are usually assigned different weights to reflect the likelihood. For example, in some situations, mutations are more likely than insertions due to the properties of DNA/RNA, so replacement has lower penalty. 
+This is basically a simplified version of [global sequence alignment](https://en.wikipedia.org/wiki/Sequence_alignment#Global_and_local_alignments) commonly used in bioinformatics. In bioinformatics, different operations are usually assigned different weights to reflect the likelihood. For example, in some situations, mutations are more likely than insertions due to the properties of DNA/RNA, so replacement has lower penalty. 
 
 ### 1. Naïve method
 This uses a matrix as big as R x C where R is the length of word1 and C is the length of word2.

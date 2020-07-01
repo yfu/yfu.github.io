@@ -3,7 +3,7 @@ layout: single
 title:  "Path Sum III"
 excerpt: ""
 categories: []
-tags: [leetcode, dynamic programming]
+tags: [leetcode]
 date:   2020-07-01 19:25:00 -0500
 classes: wide
 categories: leetcode update

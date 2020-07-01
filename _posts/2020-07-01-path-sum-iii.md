@@ -11,7 +11,9 @@ categories: leetcode update
 
 [437. Path Sum III](https://leetcode.com/problems/path-sum-iii/)
 
-### Solution 1: two recursive functions. The time complexity is O(N^2) and space complexity is O(N).
+### Solution 1: two recursive functions. 
+
+The time complexity is O(N^2) and space complexity is O(N).
 
 {% highlight python %}
 class Solution:
@@ -28,7 +30,9 @@ class Solution:
         return dfs(root, sum)    
 {% endhighlight %}
 
-### Solution 2: prefix sums. For each of the paths from the root to a node, we can maintain the prefix sums we've seen so far. When we encounter a new node, we can quickly look up to see if `current node's value` + `previous prefix sum` - `sum` is already in the prefix sums. If so, we add that to the counter. Both the time and space complexity is O(N).
+### Solution 2: prefix sums. 
+
+For each of the paths from the root to a node, we can maintain the prefix sums we've seen so far. When we encounter a new node, we can quickly look up to see if `current node's value` + `previous prefix sum` - `sum` is already in the prefix sums. If so, we add that to the counter. Both the time and space complexity is O(N).
 
 {% highlight python %}
 class Solution:

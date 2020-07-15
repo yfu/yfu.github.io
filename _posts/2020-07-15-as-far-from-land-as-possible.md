@@ -49,3 +49,59 @@ class Solution:
         return ret
             
 {% endhighlight %}
+
+
+{% highlight java %}
+class Solution {
+    int gridSize;
+    public int maxDistance(int[][] grid) {
+        
+        this.gridSize = grid.length;
+        
+        Queue<Triplet> q = new ArrayDeque<Triplet>();
+            
+        for (int i = 0; i < gridSize; ++i) {
+            for (int j = 0; j < gridSize; ++j) {
+                if (grid[i][j] == 1) {
+                    for (List<Integer> l: this.getNeighbors(i, j)) {
+                        q.add(new Triplet(l.get(0), l.get(1), 1));
+                    }
+                }
+            }
+        }
+        int ret = -1;
+        while (!q.isEmpty()) {
+            Triplet t = q.remove();
+            int i = t.arr[0], j = t.arr[1], dist = t.arr[2];
+            if (grid[i][j] != 0) continue;
+            grid[i][j] = dist;
+            for (List<Integer> tmp: this.getNeighbors(i, j)) {
+                q.add(new Triplet(tmp.get(0), tmp.get(1), dist + 1));
+                ret = Math.max(ret, dist);
+            }
+        }
+        
+        return ret;
+        
+    }
+    private List<List<Integer>> getNeighbors(int i, int j) {
+        List<List<Integer>> ret = new ArrayList<>();
+        if (i + 1 < gridSize)
+            ret.add(Arrays.asList(i+1, j));
+        if (i - 1 >= 0)
+            ret.add(Arrays.asList(i-1, j));
+        if (j + 1 < gridSize)
+            ret.add(Arrays.asList(i, j+1));
+        if (j - 1 >= 0)
+            ret.add(Arrays.asList(i, j-1));
+        return ret;
+    }
+}
+
+class Triplet {
+    public int[] arr;
+    public Triplet(int a, int b, int c) {
+        arr = new int[]{a, b, c};
+    }
+}
+{% endhighlight %}

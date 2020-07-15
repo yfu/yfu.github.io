@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Longest Increasing Subsequence"
+title:  "Longest String Chain"
 excerpt: ""
 categories: []
 tags: [leetcode, dynamic programming]

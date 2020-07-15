@@ -13,6 +13,7 @@ categories: leetcode update
 
 ### BFS
 
+#### Python
 
 {% highlight python %}
 class Solution:
@@ -50,7 +51,7 @@ class Solution:
             
 {% endhighlight %}
 
-
+#### Java
 {% highlight java %}
 class Solution {
     int gridSize;

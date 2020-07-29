@@ -11,7 +11,7 @@ categories: leetcode update
 
 [1263. Minimum Moves to Move a Box to Their Target Location](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/)
 
-It is simply a problem of searching for all possible paths in a graph where each node is the status of the game, i.e., coordinates both the person and the box. Note that we need to find out the min moves to push the box, not the min moves of the person. Thus, using BFS, the first time we reach certain status, it is guaranteed to have the min moves of the person but *not* the min moves to push the box.
+It is simply a problem of searching for all possible paths in a graph where each node is the status of the game, i.e., coordinates both the person and the box. Note that we need to find out the min moves to push the box, not the min moves of the person. Using BFS, the first time we reach certain status, it is guaranteed to have the min moves of the person but *not* the min moves to push the box.
 
 ### BFS
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "1162 As Far from Land as Possible"
+title:  "As Far from Land as Possible"
 excerpt: ""
 categories: []
 tags: [leetcode]
